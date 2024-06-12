@@ -11,7 +11,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            border: 2px solid black;
+            margin-bottom: 20px;
         }
 
         .ball {
@@ -31,8 +31,8 @@
         }
 
         .botton {
-            width: 100px;
-            height: 20px;
+            width: 150px;
+            height: 45px;
             background-color: green;
             display: flex;
             align-items: center;
@@ -40,6 +40,7 @@
             border-radius: 10px;
             color: white;
             margin: 0 20px;
+            margin-top: 10px;
         }
 
         .container {
@@ -57,19 +58,56 @@
         }
 
         .verybottombox {
+            width: 240px;
+            height: 485px;
+            background-color: black;
+            border-radius: 15px;
+            margin: 3px;
+        }
+
+        .boxright {
             width: 300px;
             height: 240px;
             background-color: black;
             border-radius: 15px;
             margin: 3px;
         }
-        .boxright{
-            width: 300px;
-            height: 240px;
-            background-color: black;
-            border-radius: 15px;
-            margin: 3px;
+
+        .bottom {
+            display: flex;
+            justify-content: center;
         }
+
+        .h3 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .h2 {
+            display: flex;
+            justify-content: center;
+            color: gray
+        }
+
+        .socials {
+            color: gray;
+            margin-top: -10px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .botton2{
+            width: 150px;
+            height: 45px;
+            background-color: green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            color: white;
+            margin: 0 20px;
+            margin-top: 10px;
+            margin-left: -10px;
+        }
+       
     </style>
 </head>
 
@@ -77,14 +115,26 @@
     <div class="top">
         <div class="ball"></div>
         <div>
-            <h2>VINICIUS DA SILVA CONTI</h2>
-            <h3>Estudent</h3>
+            <h2 class="h3">Viniciua da Silva Conti</h2>
+            <h3 class="h2">Estudent</h3>
+            <p class="socials"> Socials</p>
             <div class="display">
+                <div class="colun1">
                 <div class="botton">
                     <p>botão 1</p>
                 </div>
                 <div class="botton">
                     <p>botão 2</p>
+                    </div>
+                </div>
+                    <div class="colun2">
+                    <div class="botton2">
+                        <p>Botão 3</p>
+                    </div>
+                    <div class="botton2">
+                        <p>botão4</p>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -94,22 +144,22 @@
         <div class="container">
 
             <div>
-            <div class="boxright"></div>
-            <div class="boxright"></div>
+                <div class="boxright"></div>
+                <div class="boxright"></div>
 
+            </div>
+            <div>
+
+                <div class="bottombox"></div>
+                <div class="bottombox"></div>
+
+            </div>
+            <div>
+
+                <div class="verybottombox"></div>
+
+            </div>
         </div>
-        <div>
-
-            <div class="bottombox"></div>
-            <div class="bottombox"></div>
-
-        </div>
-        <div>
-
-            <div class="verybottombox"></div>
-
-        </div>
-    </div>
 
 
 </body>
