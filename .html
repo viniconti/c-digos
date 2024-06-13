@@ -28,6 +28,8 @@
 
         .display {
             display: flex;
+            justify-content: center;
+            flex-direction: column;
         }
 
 
@@ -89,20 +91,30 @@
             font-family: 'Times New Roman', Times, serif;
         }
 
-        .botton2 {
-            width: 150px;
+        .btn {
             height: 45px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 10px;
-            color: rgb(0, 0, 0);
-            margin: 0 20px;
-            margin-top: 10px;
+            width: 150px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 20px;
+            background-color: #f0f0f0;
+            cursor: pointer;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn img {
+            margin-right: 30px;
+            height: 30px;
+            width: 30px;
         }
 
         .colun1 {
-        margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .link {
+            color: rgb(54, 54, 54);
+            text-decoration: none;
         }
     </style>
 </head>
@@ -115,28 +127,23 @@
             <h3 class="h2">Estudent</h3>
             <p class="socials"> Socials</p>
             <div class="display">
+
                 <div class="colun1">
-                    <div class="botton">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/768px-Instagram_icon.png"
-                            height="40px" width="40px">
-                        <p></p>
-                    </div>
-                    <div class="botton">
-                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" height="45px" width="45px">
-                        <p class="git"></p>
-                    </div>
+                    <button class="btn"><img
+                            src="https://logodownload.org/wp-content/uploads/2017/04/instagram-logo-3.png" height="30px"
+                            width="30px"><a class="link"
+                            href="https://www.instagram.com/vini_conti?igsh=b3owcjUyeGJxcnhl">Instagram</a></button>
+                    <button class="btn"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" height="30px"
+                            width="30px"><a class="link" href="https://github.com/">GitHub</a></button>
                 </div>
                 <div class="colun2">
-                    <div class="botton2">
-                        <img src="https://static.vecteezy.com/system/resources/previews/023/986/561/non_2x/tiktok-logo-tiktok-logo-transparent-tiktok-icon-transparent-free-free-png.png"
-                            height="50px" width="50px">
-                        <p class="tik"></p>
-                    </div>
-                    <div class="botton2">
-                        <img src="https://static-00.iconduck.com/assets.00/brand-vsco-icon-512x512-jwg4l3ts.png"
-                            height="45px" width="45px">
-                        <p class="vsco"></p>
-                    </div>
+                    <button class="btn"><img
+                            src="https://w7.pngwing.com/pngs/814/840/png-transparent-tiktok-tiktok-logo-tiktok-icon-thumbnail.png"
+                            height="30px" width="30px"><a class="link"
+                            href="https://www.tiktok.com/@yourmusic4ever01/video/7324105620095765765?q=never%20gonna%20give%20up&t=1718308030844">TikTok</a></button>
+                    <button class="btn"><img
+                            src="https://static-00.iconduck.com/assets.00/brand-vsco-icon-512x512-jwg4l3ts.png"
+                            height="30px" width="30px"><a class="link" href="https://www.vsco.co/">Vsco</a></button>
                 </div>
             </div>
         </div>
@@ -162,6 +169,3 @@
 
             </div>
         </div>
-
-
-</body>
